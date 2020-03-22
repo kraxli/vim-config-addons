@@ -1,6 +1,6 @@
 
 function! OpenBrowser()
-  let s:url = matchstr(getline("."), '[a-z]*:\/\/[^ >,;\)\]\"\']*')
+  let s:url = matchstr(getline("."), "[a-z]*:\/\/[^ >,;\"')]*")
 
   if s:url != ""
     if has('unix')
