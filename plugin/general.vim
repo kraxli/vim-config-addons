@@ -15,3 +15,7 @@ function! OpenBrowser()
   endif
 
 endfunction
+
+unmap gx
+nmap gx :call OpenBroswer()<cr>
+
