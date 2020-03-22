@@ -17,5 +17,7 @@ function! OpenBrowser()
 endfunction
 
 unmap gx
+" silent! nunmap <buffer> gc
+
 nmap gx :call OpenBroswer()<cr>
 
